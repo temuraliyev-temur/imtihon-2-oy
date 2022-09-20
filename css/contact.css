@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0.8vw;
+  height: 0.8vw;
+}
+
+::-webkit-scrollbar-track {
+  background: #333d4b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #36536b;
+  border-radius: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #edf3f8;
+}
+
+.contenir {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  position: relative;
+}
+.header .header-bg-img {
+  position: absolute;
+  width: 660px;
+  height: 680px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  top: -530px;
+  left: 690px;
+  z-index: -1;
+}
+.header .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.header .header-top .header-inner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.header .header-top .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header .header-top .nav-link {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.header .header-top .btn {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 16px 24px 14px 26px;
+  background-color: #ba4270;
+  border: none;
+  border-radius: 24px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+}
+.header .header-title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  width: 730px;
+  letter-spacing: -0.430769px;
+  color: #36536b;
+  margin-top: 72px;
+}
+
+.join .join-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.join .join-left {
+  margin-top: 43px;
+}
+.join .input {
+  background-color: #edf3f8;
+  border: none;
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  outline: none;
+  margin: 24px;
+  border-bottom: 1px solid #8e9eac;
+  width: 400px;
+  padding-bottom: 16px;
+}
+.join .work-right {
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 60px;
+}
+.join .join-title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  width: 445px;
+  letter-spacing: -0.184615px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+.join .btn {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 16px 49px 14px 50px;
+  background-color: #333d4b;
+  border: none;
+  border-radius: 24px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  margin-top: 50px;
+}
+
+.ready-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+.ready-inner .ready-title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  width: 445px;
+  margin-bottom: 96px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+.ready-inner .ready-right {
+  position: relative;
+  display: inline;
+  margin-top: -100px;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+.ready-inner .ready-input {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  outline: none;
+  padding: 15px 270px 15px 27px;
+  border-radius: 20px;
+  border: none;
+}
+.ready-inner .right-input {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #ffffff;
+  padding: 15px 40px;
+  background-color: #ba4270;
+  border: none;
+  border-radius: 20px;
+  position: absolute;
+  left: 340px;
+}
+.ready-inner .right-input:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=contact.css.map */
